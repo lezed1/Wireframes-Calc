@@ -25,7 +25,7 @@ double Frame::getFrameWidth() const
 {
     return frameWidth;
 }
-void Frame::printPovRay(const std::string& color) const
+void Frame::printPovRay(const std::string& color, std::ostream &ostream) const
 {
     for (int i=0;i<edgeNum;i++)
     {
@@ -33,7 +33,7 @@ void Frame::printPovRay(const std::string& color) const
         std::string tList=edges.at(i).povRayString(color);
         if (tList.size()>0)
         {
-            std::cout << tList << "\n";
+            ostream << tList << "\n";
         }
     }
 }

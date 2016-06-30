@@ -23,23 +23,23 @@ Compound::Compound(const Polyhedron& polyhedron,int pNum):polyNum(pNum)
         poly.push_back( std::unique_ptr<Polyhedron>(polyhedron.clone()) );
     }
 }
-void Compound::printPovRayFrame(double frameWidth,const std::vector<std::string>& colors) const
+void Compound::printPovRayFrame(double frameWidth,const std::vector<std::string>& colors, std::ostream& ostream) const
 {
     int colorsSize=(int) colors.size();
     for (int i=0;i<poly.size();i++)
     {
         int colorIndex=i%colorsSize;
-        poly.at(i)->printPovRayFrame(frameWidth, colors.at(colorIndex));
+        poly.at(i)->printPovRayFrame(frameWidth, colors.at(colorIndex), ostream);
         //poly.at(i)->makeFrame(frameWidth).printPovRay(colors.at(colorIndex));
     }
 }
-void Compound::printPovRaySkeleton(double thickness,const std::vector<std::string>& colors) const
+void Compound::printPovRaySkeleton(double thickness,const std::vector<std::string>& colors, std::ostream& ostream) const
 {
     int colorsSize=(int) colors.size();
     for (int i=0;i<poly.size();i++)
     {
         int colorIndex=i%colorsSize;
-        poly.at(i)->printPovRaySkeleton(thickness, colors.at(colorIndex));
+        poly.at(i)->printPovRaySkeleton(thickness, colors.at(colorIndex), ostream);
         //poly.at(i)->makeFrame(frameWidth).printPovRay(colors.at(colorIndex));
     }
 }

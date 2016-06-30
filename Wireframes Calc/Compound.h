@@ -24,8 +24,8 @@ protected:
 public:
     double computeWidth() const;
     
-    void printPovRayFrame(double frameWidth,const std::vector<std::string>& colors) const;
-    void printPovRaySkeleton(double thickness,const std::vector<std::string>& colors) const;
+    void printPovRayFrame(double frameWidth,const std::vector<std::string>& colors, std::ostream &ostream = std::cout) const;
+    void printPovRaySkeleton(double thickness,const std::vector<std::string>& colors, std::ostream &ostream = std::cout) const;
     Frame makeFrame(int index,double frameWidth=-1.0) const;
     void setPolyhedronAttribute(const std::string& att,double newValue);
     

@@ -89,8 +89,8 @@ public:
     std::vector<Point> verticesToPoints(const std::vector<int>& vertexIndices) const;
     std::vector<Point> getFaceVertices(int index) const;
     
-    void printPovRayFrame(double frameWidth,const std::string& color) const;
-    void printPovRaySkeleton(double thickness,const std::string& color) const;
+    void printPovRayFrame(double frameWidth,const std::string& color, std::ostream &ostream = std::cout) const;
+    void printPovRaySkeleton(double thickness,const std::string& color, std::ostream& ostream = std::cout) const;
     void printCurrentAttributeList() const;
     
     virtual ~Polyhedron();

@@ -223,20 +223,20 @@ void Polyhedron::setFaceAttribute(int index,const std::string& name,double value
 {
     faces.at(index)->setAttribute(name,value);
 }
-void Polyhedron::printPovRayFrame(double frameWidth,const std::string& color) const
+void Polyhedron::printPovRayFrame(double frameWidth,const std::string& color, std::ostream &ostream) const
 {
-    makeFrame(frameWidth).printPovRay(color);
+    makeFrame(frameWidth).printPovRay(color, ostream);
 }
-void Polyhedron::printPovRaySkeleton(double thickness,const std::string& color) const
+void Polyhedron::printPovRaySkeleton(double thickness,const std::string& color, std::ostream& ostream) const
 {
     for (int i=0;i<vertexNumber;i++)
     {
-        std::cout << povRaySphere(getVertex(i), thickness, color) << "\n";
+        ostream << povRaySphere(getVertex(i), thickness, color) << "\n";
     }
     for (int i=0;i<getEdgeNum();i++)
     {
         Line theEdge=getEdgeLine(i);
-        std::cout << povRayCylinder(theEdge, thickness, color) << "\n";
+        ostream << povRayCylinder(theEdge, thickness, color) << "\n";
     }
 }
 int Polyhedron::getEdgeNum() const

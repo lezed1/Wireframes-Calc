@@ -25,7 +25,7 @@ public:
     Frame(int en,double fw);
     void addFrameEdge(const Line& l);
     void addTriangle(int index,const Triangle& t);
-    void printPovRay(const std::string& color) const;
+    void printPovRay(const std::string& color, std::ostream &ostream = std::cout) const;
     double getFrameWidth() const;
     
     FrameEdge getFrameEdge(int index) const;

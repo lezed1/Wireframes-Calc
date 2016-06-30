@@ -7,6 +7,7 @@
 //
 
 #include <iostream>
+#include <fstream>
 #include <ctime>
 #include <cmath>
 #include "OldCode.h"
@@ -211,11 +212,37 @@ int main(int argc, const char * argv[])
      }
      }*/
     
-     TriangularPrism tp(0,0,0);
-     tp.setAttribute("height", 2.0);
-     IcosahedralEdgeCompound compound(tp, 3.9, 46);
-     compound.printPovRayFrame(0.17, colors1);
-     std::cout << tp.getLongestEdgeLength()/(4.0*computeCompoundWidth(compound)) << "\n";
+    
+    std::ofstream outputFile;
+    outputFile.open("/tmp/out.pov");
+    
+    outputFile << "#include \"colors.inc\" \n";
+    outputFile << "\n";
+    outputFile << "background {color White}\n";
+    outputFile << "\n";
+//    outputFile << "#declare light=<2,3,0>*2;\n";
+//    outputFile << "#declare light=<1.3,1.3,1.3>*6;\n";
+    outputFile << "#declare light=<1.25,0,-2>*7;\n";
+//    outputFile << "#declare light=<5,3,5>*2;\n";
+//    outputFile << "#declare light=<10,0,0>*0.5;\n";
+    outputFile << "\n";
+    outputFile << "camera {location light look_at <0,0,0>}\n";
+    outputFile << "\n";
+    outputFile << "light_source {light color White}  \n";
+
+    
+    TriangularPrism tp(0,0,0);
+    tp.setAttribute("height", 2.0);
+    IcosahedralEdgeCompound compound(tp, 3.9, 46);
+    
+    compound.printPovRayFrame(0.17, colors1, outputFile);
+    outputFile.close();
+    
+    system("/usr/local/bin/povray /tmp/out.pov");
+    system("open /tmp/out.png");
+    
+    std::cout << tp.getLongestEdgeLength()/(4.0*computeCompoundWidth(compound)) << "\n";
+    
     
     //for (double shift=3.5;shift<4.5;shift+=0.05)
     //{
