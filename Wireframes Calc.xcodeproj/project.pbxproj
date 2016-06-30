@@ -7,6 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9320616A1D24B8B10072730A /* Polyhedron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932060F41D24B8B00072730A /* Polyhedron.cpp */; };
+		9320616B1D24B8B10072730A /* FifteenCompound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932060F71D24B8B00072730A /* FifteenCompound.cpp */; };
+		9320616C1D24B8B10072730A /* AffineTransformation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932060F91D24B8B00072730A /* AffineTransformation.cpp */; };
+		9320616D1D24B8B10072730A /* IcosahedralEdgeCompound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932060FB1D24B8B00072730A /* IcosahedralEdgeCompound.cpp */; };
+		9320616E1D24B8B10072730A /* basicshapes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932060FD1D24B8B00072730A /* basicshapes.cpp */; };
+		9320616F1D24B8B10072730A /* AlecShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932060FF1D24B8B00072730A /* AlecShape.cpp */; };
+		932061701D24B8B10072730A /* OctahedralCompound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061021D24B8B00072730A /* OctahedralCompound.cpp */; };
+		932061711D24B8B10072730A /* TriangularPyramid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061031D24B8B00072730A /* TriangularPyramid.cpp */; };
+		932061721D24B8B10072730A /* FiveRectangles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061041D24B8B00072730A /* FiveRectangles.cpp */; };
+		932061731D24B8B10072730A /* Optimization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061051D24B8B00072730A /* Optimization.cpp */; };
+		932061741D24B8B10072730A /* FIT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061071D24B8B00072730A /* FIT.cpp */; };
+		932061751D24B8B10072730A /* Pentagon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061081D24B8B00072730A /* Pentagon.cpp */; };
+		932061761D24B8B10072730A /* TubularPolygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061091D24B8B00072730A /* TubularPolygon.cpp */; };
+		932061771D24B8B10072730A /* IcosahedralCompound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9320610C1D24B8B00072730A /* IcosahedralCompound.cpp */; };
+		932061781D24B8B10072730A /* TetrahedralCompound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9320610D1D24B8B00072730A /* TetrahedralCompound.cpp */; };
+		932061791D24B8B10072730A /* PolyhedralSkeleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9320610E1D24B8B00072730A /* PolyhedralSkeleton.cpp */; };
+		9320617A1D24B8B10072730A /* Octahedron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061111D24B8B00072730A /* Octahedron.cpp */; };
+		9320617B1D24B8B10072730A /* DihedralFace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061131D24B8B00072730A /* DihedralFace.cpp */; };
+		9320617C1D24B8B10072730A /* FramedFace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061141D24B8B00072730A /* FramedFace.cpp */; };
+		9320617D1D24B8B10072730A /* Prisms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061151D24B8B00072730A /* Prisms.cpp */; };
+		9320617E1D24B8B10072730A /* Icosahedron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061171D24B8B00072730A /* Icosahedron.cpp */; };
+		9320617F1D24B8B10072730A /* OldCode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061191D24B8B00072730A /* OldCode.cpp */; };
+		932061801D24B8B10072730A /* Compound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9320611A1D24B8B00072730A /* Compound.cpp */; };
+		932061811D24B8B10072730A /* OldOptimization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9320611B1D24B8B00072730A /* OldOptimization.cpp */; };
+		932061821D24B8B10072730A /* Utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9320611D1D24B8B00072730A /* Utilities.cpp */; };
+		932061831D24B8B10072730A /* Edge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9320611E1D24B8B00072730A /* Edge.cpp */; };
+		932061841D24B8B10072730A /* Matrix3x3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061201D24B8B00072730A /* Matrix3x3.cpp */; };
+		932061851D24B8B10072730A /* Tetrahedron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061221D24B8B00072730A /* Tetrahedron.cpp */; };
+		932061861D24B8B10072730A /* TriangularPrism.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061251D24B8B00072730A /* TriangularPrism.cpp */; };
+		932061871D24B8B10072730A /* FiveCompound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061271D24B8B00072730A /* FiveCompound.cpp */; };
+		932061881D24B8B10072730A /* Hexahedron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061281D24B8B00072730A /* Hexahedron.cpp */; };
+		932061891D24B8B10072730A /* ThreeCompound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061291D24B8B00072730A /* ThreeCompound.cpp */; };
+		9320618A1D24B8B10072730A /* FourCompound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9320612A1D24B8B00072730A /* FourCompound.cpp */; };
+		9320618B1D24B8B10072730A /* SixCompound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9320612B1D24B8B00072730A /* SixCompound.cpp */; };
+		9320618C1D24B8B10072730A /* TenCompound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9320612C1D24B8B00072730A /* TenCompound.cpp */; };
+		9320618D1D24B8B10072730A /* Polypolyhedra2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9320612E1D24B8B00072730A /* Polypolyhedra2.cpp */; };
+		9320618E1D24B8B10072730A /* PPHAlgorithms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9320612F1D24B8B00072730A /* PPHAlgorithms.cpp */; };
+		9320618F1D24B8B10072730A /* Polypolyhedra.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061311D24B8B00072730A /* Polypolyhedra.cpp */; };
+		932061901D24B8B10072730A /* RhombicHexahedron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061341D24B8B00072730A /* RhombicHexahedron.cpp */; };
+		932061911D24B8B10072730A /* Hendecahedron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061351D24B8B00072730A /* Hendecahedron.cpp */; };
+		932061921D24B8B10072730A /* FourRhombicPrisms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061371D24B8B10072730A /* FourRhombicPrisms.cpp */; };
+		932061931D24B8B10072730A /* TwoTrapezoids.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9320613A1D24B8B10072730A /* TwoTrapezoids.cpp */; };
+		932061941D24B8B10072730A /* RhombicPentahedron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9320613D1D24B8B10072730A /* RhombicPentahedron.cpp */; };
+		932061951D24B8B10072730A /* Vertex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061401D24B8B10072730A /* Vertex.cpp */; };
+		932061961D24B8B10072730A /* Line2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061431D24B8B10072730A /* Line2D.cpp */; };
+		932061971D24B8B10072730A /* HexagonalTetrahedron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061451D24B8B10072730A /* HexagonalTetrahedron.cpp */; };
+		932061981D24B8B10072730A /* PovFileGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061461D24B8B10072730A /* PovFileGenerator.cpp */; };
+		932061991D24B8B10072730A /* FaceVertices.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061481D24B8B10072730A /* FaceVertices.cpp */; };
+		9320619A1D24B8B10072730A /* FrameEdge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061491D24B8B10072730A /* FrameEdge.cpp */; };
+		9320619B1D24B8B10072730A /* FaceGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9320614A1D24B8B10072730A /* FaceGenerator.cpp */; };
+		9320619C1D24B8B10072730A /* PenultimateTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9320614B1D24B8B10072730A /* PenultimateTriangle.cpp */; };
+		9320619D1D24B8B10072730A /* TwoTetrahedra.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9320614C1D24B8B10072730A /* TwoTetrahedra.cpp */; };
+		9320619E1D24B8B10072730A /* NonFramedFace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061501D24B8B10072730A /* NonFramedFace.cpp */; };
+		9320619F1D24B8B10072730A /* Bilunabirotunda.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061531D24B8B10072730A /* Bilunabirotunda.cpp */; };
+		932061A01D24B8B10072730A /* Face.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061541D24B8B10072730A /* Face.cpp */; };
+		932061A11D24B8B10072730A /* VerticesManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061561D24B8B10072730A /* VerticesManager.cpp */; };
+		932061A21D24B8B10072730A /* Frame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9320615F1D24B8B10072730A /* Frame.cpp */; };
+		932061A31D24B8B10072730A /* TTIntersection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061621D24B8B10072730A /* TTIntersection.cpp */; };
+		932061A41D24B8B10072730A /* Attribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 932061681D24B8B10072730A /* Attribute.cpp */; };
 		93D07FA31D24B73F004EDB90 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93D07FA21D24B73F004EDB90 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +82,124 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		932060F41D24B8B00072730A /* Polyhedron.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Polyhedron.cpp; sourceTree = "<group>"; };
+		932060F51D24B8B00072730A /* Polyhedron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Polyhedron.h; sourceTree = "<group>"; };
+		932060F61D24B8B00072730A /* FaceVertices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceVertices.h; sourceTree = "<group>"; };
+		932060F71D24B8B00072730A /* FifteenCompound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FifteenCompound.cpp; sourceTree = "<group>"; };
+		932060F81D24B8B00072730A /* basicshapes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = basicshapes.h; sourceTree = "<group>"; };
+		932060F91D24B8B00072730A /* AffineTransformation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AffineTransformation.cpp; sourceTree = "<group>"; };
+		932060FA1D24B8B00072730A /* AffineTransformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AffineTransformation.h; sourceTree = "<group>"; };
+		932060FB1D24B8B00072730A /* IcosahedralEdgeCompound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IcosahedralEdgeCompound.cpp; sourceTree = "<group>"; };
+		932060FC1D24B8B00072730A /* IcosahedralEdgeCompound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IcosahedralEdgeCompound.h; sourceTree = "<group>"; };
+		932060FD1D24B8B00072730A /* basicshapes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = basicshapes.cpp; sourceTree = "<group>"; };
+		932060FE1D24B8B00072730A /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		932060FF1D24B8B00072730A /* AlecShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AlecShape.cpp; sourceTree = "<group>"; };
+		932061001D24B8B00072730A /* AlecShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlecShape.h; sourceTree = "<group>"; };
+		932061011D24B8B00072730A /* FiveRectangles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveRectangles.h; sourceTree = "<group>"; };
+		932061021D24B8B00072730A /* OctahedralCompound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OctahedralCompound.cpp; sourceTree = "<group>"; };
+		932061031D24B8B00072730A /* TriangularPyramid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TriangularPyramid.cpp; sourceTree = "<group>"; };
+		932061041D24B8B00072730A /* FiveRectangles.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FiveRectangles.cpp; sourceTree = "<group>"; };
+		932061051D24B8B00072730A /* Optimization.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Optimization.cpp; sourceTree = "<group>"; };
+		932061061D24B8B00072730A /* Optimization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Optimization.h; sourceTree = "<group>"; };
+		932061071D24B8B00072730A /* FIT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FIT.cpp; sourceTree = "<group>"; };
+		932061081D24B8B00072730A /* Pentagon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pentagon.cpp; sourceTree = "<group>"; };
+		932061091D24B8B00072730A /* TubularPolygon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TubularPolygon.cpp; sourceTree = "<group>"; };
+		9320610A1D24B8B00072730A /* TubularPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TubularPolygon.h; sourceTree = "<group>"; };
+		9320610B1D24B8B00072730A /* Icosahedron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Icosahedron.h; sourceTree = "<group>"; };
+		9320610C1D24B8B00072730A /* IcosahedralCompound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IcosahedralCompound.cpp; sourceTree = "<group>"; };
+		9320610D1D24B8B00072730A /* TetrahedralCompound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TetrahedralCompound.cpp; sourceTree = "<group>"; };
+		9320610E1D24B8B00072730A /* PolyhedralSkeleton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PolyhedralSkeleton.cpp; sourceTree = "<group>"; };
+		9320610F1D24B8B00072730A /* PolyhedralSkeleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolyhedralSkeleton.h; sourceTree = "<group>"; };
+		932061101D24B8B00072730A /* OctahedralCompound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OctahedralCompound.h; sourceTree = "<group>"; };
+		932061111D24B8B00072730A /* Octahedron.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Octahedron.cpp; sourceTree = "<group>"; };
+		932061121D24B8B00072730A /* Octahedron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Octahedron.h; sourceTree = "<group>"; };
+		932061131D24B8B00072730A /* DihedralFace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DihedralFace.cpp; sourceTree = "<group>"; };
+		932061141D24B8B00072730A /* FramedFace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FramedFace.cpp; sourceTree = "<group>"; };
+		932061151D24B8B00072730A /* Prisms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Prisms.cpp; sourceTree = "<group>"; };
+		932061161D24B8B00072730A /* IcosahedralCompound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IcosahedralCompound.h; sourceTree = "<group>"; };
+		932061171D24B8B00072730A /* Icosahedron.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Icosahedron.cpp; sourceTree = "<group>"; };
+		932061181D24B8B00072730A /* TriangularPyramid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangularPyramid.h; sourceTree = "<group>"; };
+		932061191D24B8B00072730A /* OldCode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OldCode.cpp; sourceTree = "<group>"; };
+		9320611A1D24B8B00072730A /* Compound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Compound.cpp; sourceTree = "<group>"; };
+		9320611B1D24B8B00072730A /* OldOptimization.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OldOptimization.cpp; sourceTree = "<group>"; };
+		9320611C1D24B8B00072730A /* OldOptimization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OldOptimization.h; sourceTree = "<group>"; };
+		9320611D1D24B8B00072730A /* Utilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utilities.cpp; sourceTree = "<group>"; };
+		9320611E1D24B8B00072730A /* Edge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Edge.cpp; sourceTree = "<group>"; };
+		9320611F1D24B8B00072730A /* Edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Edge.h; sourceTree = "<group>"; };
+		932061201D24B8B00072730A /* Matrix3x3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix3x3.cpp; sourceTree = "<group>"; };
+		932061211D24B8B00072730A /* Matrix3x3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix3x3.h; sourceTree = "<group>"; };
+		932061221D24B8B00072730A /* Tetrahedron.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tetrahedron.cpp; sourceTree = "<group>"; };
+		932061231D24B8B00072730A /* FIT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIT.h; sourceTree = "<group>"; };
+		932061241D24B8B00072730A /* TetrahedralCompound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TetrahedralCompound.h; sourceTree = "<group>"; };
+		932061251D24B8B00072730A /* TriangularPrism.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TriangularPrism.cpp; sourceTree = "<group>"; };
+		932061261D24B8B00072730A /* TriangularPrism.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangularPrism.h; sourceTree = "<group>"; };
+		932061271D24B8B00072730A /* FiveCompound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FiveCompound.cpp; sourceTree = "<group>"; };
+		932061281D24B8B00072730A /* Hexahedron.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hexahedron.cpp; sourceTree = "<group>"; };
+		932061291D24B8B00072730A /* ThreeCompound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ThreeCompound.cpp; sourceTree = "<group>"; };
+		9320612A1D24B8B00072730A /* FourCompound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FourCompound.cpp; sourceTree = "<group>"; };
+		9320612B1D24B8B00072730A /* SixCompound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SixCompound.cpp; sourceTree = "<group>"; };
+		9320612C1D24B8B00072730A /* TenCompound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TenCompound.cpp; sourceTree = "<group>"; };
+		9320612D1D24B8B00072730A /* OldCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OldCode.h; sourceTree = "<group>"; };
+		9320612E1D24B8B00072730A /* Polypolyhedra2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Polypolyhedra2.cpp; sourceTree = "<group>"; };
+		9320612F1D24B8B00072730A /* PPHAlgorithms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PPHAlgorithms.cpp; sourceTree = "<group>"; };
+		932061301D24B8B00072730A /* Polypolyhedra2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Polypolyhedra2.h; sourceTree = "<group>"; };
+		932061311D24B8B00072730A /* Polypolyhedra.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Polypolyhedra.cpp; sourceTree = "<group>"; };
+		932061321D24B8B00072730A /* PPHAlgorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPHAlgorithms.h; sourceTree = "<group>"; };
+		932061331D24B8B00072730A /* Polypolyhedra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Polypolyhedra.h; sourceTree = "<group>"; };
+		932061341D24B8B00072730A /* RhombicHexahedron.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RhombicHexahedron.cpp; sourceTree = "<group>"; };
+		932061351D24B8B00072730A /* Hendecahedron.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hendecahedron.cpp; sourceTree = "<group>"; };
+		932061361D24B8B00072730A /* Hendecahedron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hendecahedron.h; sourceTree = "<group>"; };
+		932061371D24B8B10072730A /* FourRhombicPrisms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FourRhombicPrisms.cpp; sourceTree = "<group>"; };
+		932061381D24B8B10072730A /* Compound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Compound.h; sourceTree = "<group>"; };
+		932061391D24B8B10072730A /* FourRhombicPrisms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourRhombicPrisms.h; sourceTree = "<group>"; };
+		9320613A1D24B8B10072730A /* TwoTrapezoids.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TwoTrapezoids.cpp; sourceTree = "<group>"; };
+		9320613B1D24B8B10072730A /* TwoTrapezoids.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoTrapezoids.h; sourceTree = "<group>"; };
+		9320613C1D24B8B10072730A /* Pentagon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pentagon.h; sourceTree = "<group>"; };
+		9320613D1D24B8B10072730A /* RhombicPentahedron.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RhombicPentahedron.cpp; sourceTree = "<group>"; };
+		9320613E1D24B8B10072730A /* RhombicPentahedron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RhombicPentahedron.h; sourceTree = "<group>"; };
+		9320613F1D24B8B10072730A /* RhombicHexahedron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RhombicHexahedron.h; sourceTree = "<group>"; };
+		932061401D24B8B10072730A /* Vertex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vertex.cpp; sourceTree = "<group>"; };
+		932061411D24B8B10072730A /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
+		932061421D24B8B10072730A /* PovFileGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PovFileGenerator.h; sourceTree = "<group>"; };
+		932061431D24B8B10072730A /* Line2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Line2D.cpp; sourceTree = "<group>"; };
+		932061441D24B8B10072730A /* Line2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line2D.h; sourceTree = "<group>"; };
+		932061451D24B8B10072730A /* HexagonalTetrahedron.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HexagonalTetrahedron.cpp; sourceTree = "<group>"; };
+		932061461D24B8B10072730A /* PovFileGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PovFileGenerator.cpp; sourceTree = "<group>"; };
+		932061471D24B8B10072730A /* HexagonalTetrahedron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexagonalTetrahedron.h; sourceTree = "<group>"; };
+		932061481D24B8B10072730A /* FaceVertices.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FaceVertices.cpp; sourceTree = "<group>"; };
+		932061491D24B8B10072730A /* FrameEdge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FrameEdge.cpp; sourceTree = "<group>"; };
+		9320614A1D24B8B10072730A /* FaceGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FaceGenerator.cpp; sourceTree = "<group>"; };
+		9320614B1D24B8B10072730A /* PenultimateTriangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PenultimateTriangle.cpp; sourceTree = "<group>"; };
+		9320614C1D24B8B10072730A /* TwoTetrahedra.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TwoTetrahedra.cpp; sourceTree = "<group>"; };
+		9320614D1D24B8B10072730A /* FramedFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FramedFace.h; sourceTree = "<group>"; };
+		9320614E1D24B8B10072730A /* DihedralFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DihedralFace.h; sourceTree = "<group>"; };
+		9320614F1D24B8B10072730A /* NonFramedFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NonFramedFace.h; sourceTree = "<group>"; };
+		932061501D24B8B10072730A /* NonFramedFace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NonFramedFace.cpp; sourceTree = "<group>"; };
+		932061511D24B8B10072730A /* FaceGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceGenerator.h; sourceTree = "<group>"; };
+		932061521D24B8B10072730A /* PenultimateTriangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PenultimateTriangle.h; sourceTree = "<group>"; };
+		932061531D24B8B10072730A /* Bilunabirotunda.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bilunabirotunda.cpp; sourceTree = "<group>"; };
+		932061541D24B8B10072730A /* Face.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Face.cpp; sourceTree = "<group>"; };
+		932061551D24B8B10072730A /* Face.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Face.h; sourceTree = "<group>"; };
+		932061561D24B8B10072730A /* VerticesManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VerticesManager.cpp; sourceTree = "<group>"; };
+		932061571D24B8B10072730A /* VerticesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticesManager.h; sourceTree = "<group>"; };
+		932061581D24B8B10072730A /* Bilunabirotunda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bilunabirotunda.h; sourceTree = "<group>"; };
+		932061591D24B8B10072730A /* TwoTetrahedra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoTetrahedra.h; sourceTree = "<group>"; };
+		9320615A1D24B8B10072730A /* ThreeCompound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeCompound.h; sourceTree = "<group>"; };
+		9320615B1D24B8B10072730A /* FourCompound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourCompound.h; sourceTree = "<group>"; };
+		9320615C1D24B8B10072730A /* SixCompound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixCompound.h; sourceTree = "<group>"; };
+		9320615D1D24B8B10072730A /* TenCompound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TenCompound.h; sourceTree = "<group>"; };
+		9320615E1D24B8B10072730A /* Tetrahedron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tetrahedron.h; sourceTree = "<group>"; };
+		9320615F1D24B8B10072730A /* Frame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Frame.cpp; sourceTree = "<group>"; };
+		932061601D24B8B10072730A /* Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Frame.h; sourceTree = "<group>"; };
+		932061611D24B8B10072730A /* FrameEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameEdge.h; sourceTree = "<group>"; };
+		932061621D24B8B10072730A /* TTIntersection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TTIntersection.cpp; sourceTree = "<group>"; };
+		932061631D24B8B10072730A /* TTIntersection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTIntersection.h; sourceTree = "<group>"; };
+		932061641D24B8B10072730A /* FifteenCompound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifteenCompound.h; sourceTree = "<group>"; };
+		932061651D24B8B10072730A /* Hexahedron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hexahedron.h; sourceTree = "<group>"; };
+		932061661D24B8B10072730A /* FiveCompound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveCompound.h; sourceTree = "<group>"; };
+		932061671D24B8B10072730A /* Prisms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prisms.h; sourceTree = "<group>"; };
+		932061681D24B8B10072730A /* Attribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Attribute.cpp; sourceTree = "<group>"; };
+		932061691D24B8B10072730A /* Attribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attribute.h; sourceTree = "<group>"; };
 		93D07F9F1D24B73E004EDB90 /* Wireframes Calc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Wireframes Calc"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D07FA21D24B73F004EDB90 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +215,158 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		932061A51D24B8B70072730A /* Polyhedra */ = {
+			isa = PBXGroup;
+			children = (
+				932061151D24B8B00072730A /* Prisms.cpp */,
+				932061671D24B8B10072730A /* Prisms.h */,
+				932061251D24B8B00072730A /* TriangularPrism.cpp */,
+				932061261D24B8B00072730A /* TriangularPrism.h */,
+				932061281D24B8B00072730A /* Hexahedron.cpp */,
+				932061651D24B8B10072730A /* Hexahedron.h */,
+				932061351D24B8B00072730A /* Hendecahedron.cpp */,
+				932061361D24B8B00072730A /* Hendecahedron.h */,
+				932061031D24B8B00072730A /* TriangularPyramid.cpp */,
+				932061181D24B8B00072730A /* TriangularPyramid.h */,
+				9320614C1D24B8B10072730A /* TwoTetrahedra.cpp */,
+				932061591D24B8B10072730A /* TwoTetrahedra.h */,
+				932061531D24B8B10072730A /* Bilunabirotunda.cpp */,
+				932061581D24B8B10072730A /* Bilunabirotunda.h */,
+				932061451D24B8B10072730A /* HexagonalTetrahedron.cpp */,
+				932061471D24B8B10072730A /* HexagonalTetrahedron.h */,
+				932061341D24B8B00072730A /* RhombicHexahedron.cpp */,
+				9320613F1D24B8B10072730A /* RhombicHexahedron.h */,
+				9320613D1D24B8B10072730A /* RhombicPentahedron.cpp */,
+				9320613E1D24B8B10072730A /* RhombicPentahedron.h */,
+				932061081D24B8B00072730A /* Pentagon.cpp */,
+				9320613C1D24B8B10072730A /* Pentagon.h */,
+				9320613A1D24B8B10072730A /* TwoTrapezoids.cpp */,
+				9320613B1D24B8B10072730A /* TwoTrapezoids.h */,
+				932061371D24B8B10072730A /* FourRhombicPrisms.cpp */,
+				932061391D24B8B10072730A /* FourRhombicPrisms.h */,
+				932061071D24B8B00072730A /* FIT.cpp */,
+				932061231D24B8B00072730A /* FIT.h */,
+				932061221D24B8B00072730A /* Tetrahedron.cpp */,
+				9320615E1D24B8B10072730A /* Tetrahedron.h */,
+				932061111D24B8B00072730A /* Octahedron.cpp */,
+				932061121D24B8B00072730A /* Octahedron.h */,
+				932061171D24B8B00072730A /* Icosahedron.cpp */,
+				9320610B1D24B8B00072730A /* Icosahedron.h */,
+				932061041D24B8B00072730A /* FiveRectangles.cpp */,
+				932061011D24B8B00072730A /* FiveRectangles.h */,
+				932060FF1D24B8B00072730A /* AlecShape.cpp */,
+				932061001D24B8B00072730A /* AlecShape.h */,
+			);
+			name = Polyhedra;
+			sourceTree = "<group>";
+		};
+		932061A61D24B9160072730A /* Compounds */ = {
+			isa = PBXGroup;
+			children = (
+				932060F71D24B8B00072730A /* FifteenCompound.cpp */,
+				932061641D24B8B10072730A /* FifteenCompound.h */,
+				9320612C1D24B8B00072730A /* TenCompound.cpp */,
+				9320615D1D24B8B10072730A /* TenCompound.h */,
+				9320612B1D24B8B00072730A /* SixCompound.cpp */,
+				9320615C1D24B8B10072730A /* SixCompound.h */,
+				932061271D24B8B00072730A /* FiveCompound.cpp */,
+				932061661D24B8B10072730A /* FiveCompound.h */,
+				9320612A1D24B8B00072730A /* FourCompound.cpp */,
+				9320615B1D24B8B10072730A /* FourCompound.h */,
+				932061291D24B8B00072730A /* ThreeCompound.cpp */,
+				9320615A1D24B8B10072730A /* ThreeCompound.h */,
+				9320610D1D24B8B00072730A /* TetrahedralCompound.cpp */,
+				932061241D24B8B00072730A /* TetrahedralCompound.h */,
+				9320610C1D24B8B00072730A /* IcosahedralCompound.cpp */,
+				932061161D24B8B00072730A /* IcosahedralCompound.h */,
+				932061021D24B8B00072730A /* OctahedralCompound.cpp */,
+				932061101D24B8B00072730A /* OctahedralCompound.h */,
+				932060FB1D24B8B00072730A /* IcosahedralEdgeCompound.cpp */,
+				932060FC1D24B8B00072730A /* IcosahedralEdgeCompound.h */,
+			);
+			name = Compounds;
+			sourceTree = "<group>";
+		};
+		932061A71D24BA750072730A /* Skeleton */ = {
+			isa = PBXGroup;
+			children = (
+				9320610E1D24B8B00072730A /* PolyhedralSkeleton.cpp */,
+				9320610F1D24B8B00072730A /* PolyhedralSkeleton.h */,
+				932061401D24B8B10072730A /* Vertex.cpp */,
+				932061411D24B8B10072730A /* Vertex.h */,
+				9320611E1D24B8B00072730A /* Edge.cpp */,
+				9320611F1D24B8B00072730A /* Edge.h */,
+				932061541D24B8B10072730A /* Face.cpp */,
+				932061551D24B8B10072730A /* Face.h */,
+				9320614A1D24B8B10072730A /* FaceGenerator.cpp */,
+				932061511D24B8B10072730A /* FaceGenerator.h */,
+				932061A81D24BAA80072730A /* FaceTypes */,
+			);
+			name = Skeleton;
+			sourceTree = "<group>";
+		};
+		932061A81D24BAA80072730A /* FaceTypes */ = {
+			isa = PBXGroup;
+			children = (
+				932061141D24B8B00072730A /* FramedFace.cpp */,
+				9320614D1D24B8B10072730A /* FramedFace.h */,
+				932061131D24B8B00072730A /* DihedralFace.cpp */,
+				9320614E1D24B8B10072730A /* DihedralFace.h */,
+				932061091D24B8B00072730A /* TubularPolygon.cpp */,
+				9320610A1D24B8B00072730A /* TubularPolygon.h */,
+				9320614F1D24B8B10072730A /* NonFramedFace.h */,
+				932061501D24B8B10072730A /* NonFramedFace.cpp */,
+				932061A91D24BAD40072730A /* PenultimateFaces */,
+			);
+			name = FaceTypes;
+			sourceTree = "<group>";
+		};
+		932061A91D24BAD40072730A /* PenultimateFaces */ = {
+			isa = PBXGroup;
+			children = (
+				9320614B1D24B8B10072730A /* PenultimateTriangle.cpp */,
+				932061521D24B8B10072730A /* PenultimateTriangle.h */,
+			);
+			name = PenultimateFaces;
+			sourceTree = "<group>";
+		};
+		932061AA1D24BC060072730A /* Frame */ = {
+			isa = PBXGroup;
+			children = (
+				932061491D24B8B10072730A /* FrameEdge.cpp */,
+				932061611D24B8B10072730A /* FrameEdge.h */,
+				9320615F1D24B8B10072730A /* Frame.cpp */,
+				932061601D24B8B10072730A /* Frame.h */,
+			);
+			name = Frame;
+			sourceTree = "<group>";
+		};
+		932061AB1D24BC550072730A /* Polypolyhedra */ = {
+			isa = PBXGroup;
+			children = (
+				9320612E1D24B8B00072730A /* Polypolyhedra2.cpp */,
+				932061301D24B8B00072730A /* Polypolyhedra2.h */,
+				9320612F1D24B8B00072730A /* PPHAlgorithms.cpp */,
+				932061321D24B8B00072730A /* PPHAlgorithms.h */,
+				932061431D24B8B10072730A /* Line2D.cpp */,
+				932061441D24B8B10072730A /* Line2D.h */,
+				932061311D24B8B00072730A /* Polypolyhedra.cpp */,
+				932061331D24B8B00072730A /* Polypolyhedra.h */,
+			);
+			name = Polypolyhedra;
+			sourceTree = "<group>";
+		};
+		932061AC1D24BC7B0072730A /* OldCode */ = {
+			isa = PBXGroup;
+			children = (
+				932061191D24B8B00072730A /* OldCode.cpp */,
+				9320612D1D24B8B00072730A /* OldCode.h */,
+				9320611B1D24B8B00072730A /* OldOptimization.cpp */,
+				9320611C1D24B8B00072730A /* OldOptimization.h */,
+			);
+			name = OldCode;
+			sourceTree = "<group>";
+		};
 		93D07F961D24B73E004EDB90 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +387,36 @@
 			isa = PBXGroup;
 			children = (
 				93D07FA21D24B73F004EDB90 /* main.cpp */,
+				932060FD1D24B8B00072730A /* basicshapes.cpp */,
+				932060F81D24B8B00072730A /* basicshapes.h */,
+				932061201D24B8B00072730A /* Matrix3x3.cpp */,
+				932061211D24B8B00072730A /* Matrix3x3.h */,
+				932060F91D24B8B00072730A /* AffineTransformation.cpp */,
+				932060FA1D24B8B00072730A /* AffineTransformation.h */,
+				932061681D24B8B10072730A /* Attribute.cpp */,
+				932061691D24B8B10072730A /* Attribute.h */,
+				9320611A1D24B8B00072730A /* Compound.cpp */,
+				932061381D24B8B10072730A /* Compound.h */,
+				932061A61D24B9160072730A /* Compounds */,
+				932060F41D24B8B00072730A /* Polyhedron.cpp */,
+				932060F51D24B8B00072730A /* Polyhedron.h */,
+				932061A71D24BA750072730A /* Skeleton */,
+				932061A51D24B8B70072730A /* Polyhedra */,
+				932061AA1D24BC060072730A /* Frame */,
+				932061561D24B8B10072730A /* VerticesManager.cpp */,
+				932061571D24B8B10072730A /* VerticesManager.h */,
+				932061481D24B8B10072730A /* FaceVertices.cpp */,
+				932060F61D24B8B00072730A /* FaceVertices.h */,
+				932061051D24B8B00072730A /* Optimization.cpp */,
+				932061061D24B8B00072730A /* Optimization.h */,
+				9320611D1D24B8B00072730A /* Utilities.cpp */,
+				932060FE1D24B8B00072730A /* Utilities.h */,
+				932061461D24B8B10072730A /* PovFileGenerator.cpp */,
+				932061421D24B8B10072730A /* PovFileGenerator.h */,
+				932061621D24B8B10072730A /* TTIntersection.cpp */,
+				932061631D24B8B10072730A /* TTIntersection.h */,
+				932061AB1D24BC550072730A /* Polypolyhedra */,
+				932061AC1D24BC7B0072730A /* OldCode */,
 			);
 			path = "Wireframes Calc";
 			sourceTree = "<group>";
@@ -118,7 +477,66 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				932061911D24B8B10072730A /* Hendecahedron.cpp in Sources */,
+				932061991D24B8B10072730A /* FaceVertices.cpp in Sources */,
+				9320619C1D24B8B10072730A /* PenultimateTriangle.cpp in Sources */,
+				932061981D24B8B10072730A /* PovFileGenerator.cpp in Sources */,
+				932061831D24B8B10072730A /* Edge.cpp in Sources */,
+				932061751D24B8B10072730A /* Pentagon.cpp in Sources */,
+				932061A41D24B8B10072730A /* Attribute.cpp in Sources */,
+				9320617E1D24B8B10072730A /* Icosahedron.cpp in Sources */,
+				9320619D1D24B8B10072730A /* TwoTetrahedra.cpp in Sources */,
+				932061921D24B8B10072730A /* FourRhombicPrisms.cpp in Sources */,
+				932061801D24B8B10072730A /* Compound.cpp in Sources */,
+				9320618A1D24B8B10072730A /* FourCompound.cpp in Sources */,
+				9320616F1D24B8B10072730A /* AlecShape.cpp in Sources */,
+				9320618F1D24B8B10072730A /* Polypolyhedra.cpp in Sources */,
+				9320619E1D24B8B10072730A /* NonFramedFace.cpp in Sources */,
+				932061881D24B8B10072730A /* Hexahedron.cpp in Sources */,
+				932061A21D24B8B10072730A /* Frame.cpp in Sources */,
+				9320617A1D24B8B10072730A /* Octahedron.cpp in Sources */,
+				932061791D24B8B10072730A /* PolyhedralSkeleton.cpp in Sources */,
+				9320619A1D24B8B10072730A /* FrameEdge.cpp in Sources */,
+				9320619F1D24B8B10072730A /* Bilunabirotunda.cpp in Sources */,
+				932061A11D24B8B10072730A /* VerticesManager.cpp in Sources */,
+				9320618B1D24B8B10072730A /* SixCompound.cpp in Sources */,
+				932061711D24B8B10072730A /* TriangularPyramid.cpp in Sources */,
+				932061971D24B8B10072730A /* HexagonalTetrahedron.cpp in Sources */,
+				932061871D24B8B10072730A /* FiveCompound.cpp in Sources */,
 				93D07FA31D24B73F004EDB90 /* main.cpp in Sources */,
+				9320619B1D24B8B10072730A /* FaceGenerator.cpp in Sources */,
+				932061761D24B8B10072730A /* TubularPolygon.cpp in Sources */,
+				932061741D24B8B10072730A /* FIT.cpp in Sources */,
+				932061851D24B8B10072730A /* Tetrahedron.cpp in Sources */,
+				9320616C1D24B8B10072730A /* AffineTransformation.cpp in Sources */,
+				9320617C1D24B8B10072730A /* FramedFace.cpp in Sources */,
+				932061951D24B8B10072730A /* Vertex.cpp in Sources */,
+				9320618D1D24B8B10072730A /* Polypolyhedra2.cpp in Sources */,
+				932061821D24B8B10072730A /* Utilities.cpp in Sources */,
+				9320617D1D24B8B10072730A /* Prisms.cpp in Sources */,
+				932061811D24B8B10072730A /* OldOptimization.cpp in Sources */,
+				9320618E1D24B8B10072730A /* PPHAlgorithms.cpp in Sources */,
+				932061901D24B8B10072730A /* RhombicHexahedron.cpp in Sources */,
+				932061731D24B8B10072730A /* Optimization.cpp in Sources */,
+				932061931D24B8B10072730A /* TwoTrapezoids.cpp in Sources */,
+				932061701D24B8B10072730A /* OctahedralCompound.cpp in Sources */,
+				932061A31D24B8B10072730A /* TTIntersection.cpp in Sources */,
+				932061771D24B8B10072730A /* IcosahedralCompound.cpp in Sources */,
+				9320616E1D24B8B10072730A /* basicshapes.cpp in Sources */,
+				9320617B1D24B8B10072730A /* DihedralFace.cpp in Sources */,
+				932061861D24B8B10072730A /* TriangularPrism.cpp in Sources */,
+				932061841D24B8B10072730A /* Matrix3x3.cpp in Sources */,
+				9320618C1D24B8B10072730A /* TenCompound.cpp in Sources */,
+				9320616B1D24B8B10072730A /* FifteenCompound.cpp in Sources */,
+				932061891D24B8B10072730A /* ThreeCompound.cpp in Sources */,
+				932061A01D24B8B10072730A /* Face.cpp in Sources */,
+				932061961D24B8B10072730A /* Line2D.cpp in Sources */,
+				932061721D24B8B10072730A /* FiveRectangles.cpp in Sources */,
+				932061941D24B8B10072730A /* RhombicPentahedron.cpp in Sources */,
+				932061781D24B8B10072730A /* TetrahedralCompound.cpp in Sources */,
+				9320616D1D24B8B10072730A /* IcosahedralEdgeCompound.cpp in Sources */,
+				9320617F1D24B8B10072730A /* OldCode.cpp in Sources */,
+				9320616A1D24B8B10072730A /* Polyhedron.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +650,7 @@
 				93D07FA81D24B73F004EDB90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
